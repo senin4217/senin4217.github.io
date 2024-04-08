@@ -3,7 +3,7 @@ layout: postpolos
 title:  "Top Indoor Plants for Year-Round Growth: Insider Leaked List"
 author: admin
 tags: [blog]
-categories: [_ozlem.479	,
+categories: [ozlem.479	,
 _özlem.47	,
  bmrcnn7	,
 bmrcnn7	,
