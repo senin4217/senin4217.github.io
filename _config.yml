@@ -48,6 +48,10 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
     
 # Pagination 
 paginate: 6
