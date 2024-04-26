@@ -15,45 +15,7 @@
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css" />
-<script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
-	
-<script type="application/javascript">
-    var testVideo = fluidPlayer(
-        "my-video",
-{
-	"layoutControls": {
-		"controlBar": {
-			"autoHideTimeout": 1,
-			"animated": true,
-			"autoHide": true
-		},
-		"htmlOnPauseBlock": {
-			"html": null,
-			"height": null,
-			"width": null
-		},
-		"autoplay": true,
-		"mute": true,
-		"allowTheatre": true,
-		"playPauseAnimation": true,
-		"playbackRateEnabled": true,
-		"allowDownload": true,
-		"playButtonShowing": true,
-		"fillToContainer": true,
-		"posterImage": ""
-	},
-	"vastOptions": {
-	"adList": [
-                    {
-                        "roll": "preRoll",
-                        "vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=6f6732348ac4680e3e347f51038ca52e"
-                    },
-            ]
-        }
-}
-    );
-</script>
+
 	
 	
 </head>
@@ -390,16 +352,55 @@ ga('send', 'pageview');
 
 
 
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+<script>
+    var player = fluidPlayer('my-video');
+</script>
+
+<link rel="stylesheet" href="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.css" type="text/css" />
+
+	
+<script type="application/javascript">
+    var testVideo = fluidPlayer(
+        "my-video",
+{
+	"layoutControls": {
+		"controlBar": {
+			"autoHideTimeout": 1,
+			"animated": true,
+			"autoHide": true
+		},
+		"htmlOnPauseBlock": {
+			"html": null,
+			"height": null,
+			"width": null
+		},
+		"autoplay": true,
+		"mute": true,
+		"allowTheatre": true,
+		"playPauseAnimation": true,
+		"playbackRateEnabled": true,
+		"allowDownload": true,
+		"playButtonShowing": true,
+		"fillToContainer": true,
+		"posterImage": ""
+	},
+	"vastOptions": {
+	"adList": [
+                    {
+                        "roll": "preRoll",
+                        "vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=6f6732348ac4680e3e347f51038ca52e"
+                    },
+            ]
+        }
+}
+    );
+</script>
+
+
+
+
 	
 	
 </body>
 </html>
-
-
-
-
-
-
-
-
-
