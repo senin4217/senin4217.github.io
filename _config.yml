@@ -54,7 +54,7 @@ jekyll-archives:
     tag: '/tag/:name/'
     
 # Pagination 
-paginate: 99
+paginate: 10
 paginate_path: /page:num/
     
 # Other
